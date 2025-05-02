@@ -26,7 +26,7 @@ const FeaturesCard = ({
           className="w-full h-full object-contain"
         />
       </div>
-      <h3 className="text-xl font-semibold mb-2">{title}</h3>
+      <h3 className="text-lg font-semibold mb-2">{title}</h3>
       <p className="mb-4">{description}</p>
       <Link
         href={linkHref}

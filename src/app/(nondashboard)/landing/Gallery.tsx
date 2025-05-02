@@ -3,67 +3,77 @@ import React from "react";
 
 const Gallery = () => {
   return (
-    <div className="max-w-6xl md:max-w-6xl mx-auto px-4 grid grid-cols-1 lg:grid-cols-3 gap-4">
-      <div className="flex flex-col gap-4">
-        <div className="relative w-full h-[300px] rounded-lg overflow-hidden">
-          <Image
-            src="/gallery2.jpg"
-            alt="Gallery 1"
-            className="object-cover"
-            fill
-          />
+    <div className="text-center max-w-6xl md:max-w-6xl mx-auto px-4">
+      <h2 className="text-2xl font-bold leading-tight text-gray-800">
+        Image Gallery
+      </h2>
+      <p className="mt-4 mb-7 text-semi-lg text-gray-600">
+        Browse our handpicked selection of rental properties and find the
+        perfect home for you.
+      </p>
+
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
+        <div className="flex flex-col gap-4">
+          <div className="relative w-full h-[300px] rounded-md overflow-hidden">
+            <Image
+              src="/gallery2.jpg"
+              alt="Gallery 1"
+              className="object-cover"
+              fill
+            />
+          </div>
+          <div className="relative w-full h-[300px] rounded-md overflow-hidden">
+            <Image
+              src="/gallery8.jpg"
+              alt="Gallery 2"
+              className="object-cover"
+              fill
+            />
+          </div>
         </div>
-        <div className="relative w-full h-[300px] rounded-lg overflow-hidden">
-          <Image
-            src="/gallery8.jpg"
-            alt="Gallery 2"
-            className="object-cover"
-            fill
-          />
+        <div className="flex flex-col gap-4">
+          <div className="relative w-full h-[160px] rounded-md overflow-hidden">
+            <Image
+              src="/gallery3.jpg"
+              alt="Gallery 3"
+              className="object-cover"
+              fill
+            />
+          </div>
+          <div className="relative w-full h-[160px] rounded-md overflow-hidden">
+            <Image
+              src="/gallery6.jpg"
+              alt="Gallery 6"
+              className="object-cover"
+              fill
+            />
+          </div>
+          <div className="relative w-full h-[370px] rounded-md overflow-hidden">
+            <Image
+              src="/gallery5.jpg"
+              alt="Gallery 5"
+              className="object-cover"
+              fill
+            />
+          </div>
         </div>
-      </div>
-      <div className="flex flex-col gap-4">
-        <div className="relative w-full h-[200px] rounded-lg overflow-hidden">
-          <Image
-            src="/gallery3.jpg"
-            alt="Gallery 3"
-            className="object-cover"
-            fill
-          />
-        </div>
-        <div className="relative w-full h-[200px] rounded-lg overflow-hidden">
-          <Image
-            src="/gallery6.jpg"
-            alt="Gallery 6"
-            className="object-cover"
-            fill
-          />
-        </div>
-        <div className="relative w-full h-[370px] rounded-lg overflow-hidden">
-          <Image
-            src="/gallery5.jpg"
-            alt="Gallery 5"
-            className="object-cover"
-            fill
-          />
-        </div>
-      </div>
-      <div className="flex flex-col gap-4">
-        <div className="relative w-full h-[300px] rounded-lg overflow-hidden">
-          <Image
-            src="/gallery1.jpg"
-            alt="Gallery 1 Duplicate"
-            className="object-cover"
-            fill
-          />
-        </div>
-        <div className="relative w-full h-[300px] rounded-lg overflow-hidden">
-          <Image
-            src="/gallery4.jpg"
-            alt="Gallery 2 Duplicate"
-            className="object-cover"
-            fill
-          />
+        <div className="flex flex-col gap-4">
+          <div className="relative w-full h-[300px] rounded-md overflow-hidden">
+            <Image
+              src="/gallery1.jpg"
+              alt="Gallery 1 Duplicate"
+              className="object-cover"
+              fill
+            />
+          </div>
+          <div className="relative w-full h-[300px] rounded-md overflow-hidden">
+            <Image
+              src="/gallery4.jpg"
+              alt="Gallery 2 Duplicate"
+              className="object-cover"
+              fill
+            />
+          </div>
         </div>
       </div>
     </div>
