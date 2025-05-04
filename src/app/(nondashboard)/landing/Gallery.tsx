@@ -17,7 +17,7 @@ const Gallery = () => {
           <div className="relative w-full h-[300px] rounded-md overflow-hidden">
             <Image
               src="/gallery2.jpg"
-              alt="Gallery 1"
+              alt="Gallery 2"
               className="object-cover"
               fill
             />
@@ -25,7 +25,7 @@ const Gallery = () => {
           <div className="relative w-full h-[300px] rounded-md overflow-hidden">
             <Image
               src="/gallery8.jpg"
-              alt="Gallery 2"
+              alt="Gallery 8"
               className="object-cover"
               fill
             />
@@ -61,7 +61,7 @@ const Gallery = () => {
           <div className="relative w-full h-[300px] rounded-md overflow-hidden">
             <Image
               src="/gallery1.jpg"
-              alt="Gallery 1 Duplicate"
+              alt="Gallery 1"
               className="object-cover"
               fill
             />
@@ -69,7 +69,7 @@ const Gallery = () => {
           <div className="relative w-full h-[300px] rounded-md overflow-hidden">
             <Image
               src="/gallery4.jpg"
-              alt="Gallery 2 Duplicate"
+              alt="Gallery 4"
               className="object-cover"
               fill
             />
