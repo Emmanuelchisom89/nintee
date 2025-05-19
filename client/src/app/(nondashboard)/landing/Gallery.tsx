@@ -1,12 +1,14 @@
 import Image from "next/image";
 import React from "react";
+import { DropdownMenuSeparator } from "@/components/ui/dropdown-menu";
 
 const Gallery = () => {
   return (
     <div className="text-center max-w-6xl md:max-w-6xl mx-auto px-4">
       <h2 className="text-2xl font-bold leading-tight text-gray-800">
         Image Gallery
-      </h2>
+      </h2> <br />
+      <DropdownMenuSeparator className="bg-primary-200" />
       <p className="mt-4 mb-7 text-semi-lg text-gray-600">
         Browse our handpicked selection of rental properties and find the
         perfect home for you.
