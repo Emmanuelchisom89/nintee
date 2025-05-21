@@ -118,7 +118,7 @@ const addFavoriteProperty = (req, res) => __awaiter(void 0, void 0, void 0, func
             return;
         }
         const propertyIdNumber = Number(propertyId);
-        const existingFavorites = tenant.favorites || [];
+        const existingFavorites = (tenant === null || tenant === void 0 ? void 0 : tenant.favorites) || [];
         if (!existingFavorites.some((fav) => fav.id === propertyIdNumber)) {
             const updatedTenant = yield prisma.tenant.update({
                 where: { cognitoId },

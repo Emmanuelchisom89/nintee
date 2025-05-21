@@ -135,7 +135,7 @@ export const addFavoriteProperty = async (
     }
 
     const propertyIdNumber = Number(propertyId);
-    const existingFavorites = tenant.favorites || [];
+    const existingFavorites = tenant?.favorites || [];
 
     if (!existingFavorites.some((fav) => fav.id === propertyIdNumber)) {
       const updatedTenant = await prisma.tenant.update({
