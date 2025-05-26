@@ -61,7 +61,7 @@ const DashboardSidebar = ({ userType }: AppSidebarProps) => {
           {
             icon: Home,
             label: "Residence",
-            href: "/tenants/residence",
+            href: "/tenants/residences",
           },
           {
             icon: Settings,
