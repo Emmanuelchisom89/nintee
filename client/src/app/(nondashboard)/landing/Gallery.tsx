@@ -7,13 +7,13 @@ const Gallery = () => {
     <div className="text-center max-w-6xl md:max-w-6xl mx-auto px-4">
       <h2 className="text-2xl font-bold leading-tight text-gray-800">
         Image Gallery
-      </h2> <br />
+      </h2>{" "}
+      <br />
       <DropdownMenuSeparator className="bg-primary-200" />
       <p className="mt-4 mb-7 text-semi-lg text-gray-600">
         Browse our handpicked selection of rental properties and find the
         perfect home for you.
       </p>
-
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
         <div className="flex flex-col gap-4">
           <div className="relative w-full h-[300px] rounded-md overflow-hidden">

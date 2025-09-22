@@ -75,7 +75,7 @@ const DashboardSidebar = ({ userType }: AppSidebarProps) => {
       className="fixed left-0 bg-white shadow-lg"
       style={{
         top: `${NAVBAR_HEIGHT}px`,
-        height: `calc(100vh - ${NAVBAR_HEIGHT}PX)`,
+        height: `calc(100vh - ${NAVBAR_HEIGHT}px)`,
       }}
     >
       <SidebarHeader>
